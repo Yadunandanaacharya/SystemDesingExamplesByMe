@@ -13,4 +13,4 @@ public class IngestionService {
         IngestToDatabase sourceSystemObject = factoryOfSource.getInstanceOfSource(source);
         sourceSystemObject.ingestData();
     }
-}
+} 
