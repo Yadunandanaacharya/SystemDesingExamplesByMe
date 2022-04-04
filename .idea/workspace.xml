@@ -29,8 +29,40 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Main/Java/DesignPatterns/Factory/DIFramework" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHubCloneRepos\MyGitDontAddAnyFile\SystemDesingExamplesByMe\src\Main\Java\DesignPatterns\Factory\DIFramework" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CoffeeHouse">
+    <configuration name="CoffeeHouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main.Java.DesignPatterns.Decorator.CoffeeHouse" />
+      <module name="SystemDesingExamplesByMe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Main.Java.DesignPatterns.Decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactoryMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main.Java.DesignPatterns.Factory.DIFramework.FactoryMain" />
+      <module name="SystemDesingExamplesByMe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Main.Java.DesignPatterns.Factory.DIFramework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FactoryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main.Java.DesignPatterns.Factory.SimpleFactoryPattern.FactoryMain" />
       <module name="SystemDesingExamplesByMe" />
@@ -46,6 +78,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CoffeeHouse" />
+        <item itemvalue="Application.FactoryMain (1)" />
         <item itemvalue="Application.FactoryMain" />
       </list>
     </recent_temporary>
