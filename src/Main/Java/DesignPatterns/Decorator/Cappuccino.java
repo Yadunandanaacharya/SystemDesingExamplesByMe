@@ -1,4 +1,4 @@
-package Main.Java.DesignPatterns.Factory.Decorator;
+package Main.Java.DesignPatterns.Decorator;
 
 public class Cappuccino extends Beverage {
     public Cappuccino() {
