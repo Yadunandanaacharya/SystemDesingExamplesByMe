@@ -13,6 +13,7 @@ public class MediaPlayerImplementation implements MediaPlayer{
             AdvancedFormat advancedFormat = new AdvancedFormat();
             advancedFormat.setResolution("720p");
             mediaPlayerAdapter = new MediaPlayerAdapter(advancedFormat);
+            mediaPlayerAdapter.play(fileToPlay, formatToPlay);
         }
     }
 
