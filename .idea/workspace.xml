@@ -36,7 +36,20 @@
       <recent name="D:\GitHubCloneRepos\MyGitDontAddAnyFile\SystemDesingExamplesByMe\src\Main\Java\DesignPatterns\Factory\DIFramework" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MediaPlayerMain">
+  <component name="RunManager" selected="Application.BridgeMain">
+    <configuration name="BridgeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main.Java.DesignPatterns.Bridge.BridgeMain" />
+      <module name="SystemDesingExamplesByMe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Main.Java.DesignPatterns.Bridge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CoffeeHouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main.Java.DesignPatterns.Decorator.CoffeeHouse" />
       <module name="SystemDesingExamplesByMe" />
@@ -76,19 +89,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LaptopMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main.Java.DesignPatterns.Facade.LaptopMain" />
-      <module name="SystemDesingExamplesByMe" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Main.Java.DesignPatterns.Facade.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MediaPlayerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main.Java.DesignPatterns.Adapter.MediaPlayerMain" />
       <module name="SystemDesingExamplesByMe" />
@@ -104,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BridgeMain" />
         <item itemvalue="Application.MediaPlayerMain" />
         <item itemvalue="Application.CoffeeHouse" />
         <item itemvalue="Application.FactoryMain (1)" />
         <item itemvalue="Application.FactoryMain" />
-        <item itemvalue="Application.LaptopMain" />
       </list>
     </recent_temporary>
   </component>
