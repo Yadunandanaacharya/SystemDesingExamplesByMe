@@ -36,7 +36,7 @@
       <recent name="D:\GitHubCloneRepos\MyGitDontAddAnyFile\SystemDesingExamplesByMe\src\Main\Java\DesignPatterns\Factory\DIFramework" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LaptopMain">
+  <component name="RunManager" selected="Application.MediaPlayerMain">
     <configuration name="CoffeeHouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main.Java.DesignPatterns.Decorator.CoffeeHouse" />
       <module name="SystemDesingExamplesByMe" />
@@ -104,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LaptopMain" />
         <item itemvalue="Application.MediaPlayerMain" />
         <item itemvalue="Application.CoffeeHouse" />
         <item itemvalue="Application.FactoryMain (1)" />
         <item itemvalue="Application.FactoryMain" />
+        <item itemvalue="Application.LaptopMain" />
       </list>
     </recent_temporary>
   </component>
