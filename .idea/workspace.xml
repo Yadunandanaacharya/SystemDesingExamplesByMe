@@ -45,7 +45,7 @@
       <recent name="D:\GitHubCloneRepos\MyGitDontAddAnyFile\SystemDesingExamplesByMe\src\Main\Java\DesignPatterns\Factory\DIFramework" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CORMain">
+  <component name="RunManager" selected="Application.VideoPlayerMain">
     <configuration name="BridgeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main.Java.DesignPatterns.Bridge.BridgeMain" />
       <module name="SystemDesingExamplesByMe" />
@@ -85,19 +85,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main.Java.DesignPatterns.Factory.DIFramework.FactoryMain" />
-      <module name="SystemDesingExamplesByMe" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Main.Java.DesignPatterns.Factory.DIFramework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MediaPlayerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main.Java.DesignPatterns.Adapter.MediaPlayerMain" />
       <module name="SystemDesingExamplesByMe" />
@@ -111,13 +98,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VideoPlayerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main.Java.DesignPatterns.Strategy.VideoPlayerMain" />
+      <module name="SystemDesingExamplesByMe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Main.Java.DesignPatterns.Strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VideoPlayerMain" />
         <item itemvalue="Application.CORMain" />
         <item itemvalue="Application.BridgeMain" />
         <item itemvalue="Application.MediaPlayerMain" />
         <item itemvalue="Application.CoffeeHouse" />
-        <item itemvalue="Application.FactoryMain (1)" />
       </list>
     </recent_temporary>
   </component>
