@@ -6,7 +6,8 @@ public class ErrorLogger extends AbstractLogger{
     }
 
     @Override
-    protected void Display(String msg) {
-        System.out.println("Error " + msg);
+    protected void Display(String msg, LogSubject logSubject) {
+        String message = "Error " + msg;
+        logSubject.NotifyAllObserver(2, message);
     }
 }

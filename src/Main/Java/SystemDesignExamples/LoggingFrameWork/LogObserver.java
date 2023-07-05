@@ -1,4 +1,5 @@
 package Main.Java.SystemDesignExamples.LoggingFrameWork;
 
-public class LogObserver {
+interface LogObserver {
+    void log(String msg);
 }

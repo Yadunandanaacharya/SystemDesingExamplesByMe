@@ -10,4 +10,19 @@ public class LogManager {
         errorLogger.setNextLoggingLevel(debugLogger);
         return  infoLogger;
     }
+
+    protected static LogSubject BuildSubject() {
+        LogSubject logSubject = new LogSubject();
+        ConsoleLogger consoleLogger = new ConsoleLogger();
+        FileLogger fileLogger = new FileLogger();
+
+        logSubject.AddObserver(1, consoleLogger);
+        logSubject.AddObserver(2, consoleLogger);
+        logSubject.AddObserver(3, consoleLogger);
+
+        logSubject.AddObserver(1, fileLogger);
+        logSubject.AddObserver(3, fileLogger);
+
+        return logSubject;
+    }
 }

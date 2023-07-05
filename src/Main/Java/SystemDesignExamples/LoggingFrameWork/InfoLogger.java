@@ -6,7 +6,8 @@ public class InfoLogger extends AbstractLogger{
     }
 
     @Override
-    protected void Display(String msg) {
-        System.out.println("Info " + msg);
+    protected void Display(String msg, LogSubject logSubject) {
+        String message = "Info " + msg;
+        logSubject.NotifyAllObserver(1, message);
     }
 }

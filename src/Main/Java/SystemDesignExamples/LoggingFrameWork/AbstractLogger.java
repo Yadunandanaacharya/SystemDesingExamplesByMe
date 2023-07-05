@@ -8,14 +8,14 @@ public abstract class AbstractLogger {
         this.nextLoggingLevel = nextLoggingLevel;
     }
 
-    void LogMessage(int level, String msg) {
-        if (this.level <= level) {
-            Display(msg);
+    void LogMessage(int level, String msg, LogSubject logSubject) {
+        if (this.level == level) {
+            Display(msg, logSubject);
         }
         if (nextLoggingLevel != null) {
-            nextLoggingLevel.LogMessage(level, msg);
+            nextLoggingLevel.LogMessage(level, msg, logSubject);
         }
     }
 
-    protected abstract void Display(String msg);
+    protected abstract void Display(String msg, LogSubject logSubject);
 }

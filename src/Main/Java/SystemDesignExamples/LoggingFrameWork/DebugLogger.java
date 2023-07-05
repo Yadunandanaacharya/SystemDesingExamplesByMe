@@ -6,7 +6,8 @@ public class DebugLogger extends AbstractLogger{
     }
 
     @Override
-    protected void Display(String msg) {
-        System.out.println("Debug " + msg);
+    protected void Display(String msg, LogSubject logSubject) {
+        String message = "Debug " + msg;
+        logSubject.NotifyAllObserver(3, message);
     }
 }
